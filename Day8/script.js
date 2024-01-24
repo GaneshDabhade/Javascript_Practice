@@ -1,55 +1,16 @@
+// Cross browser: Chromium based browsers, Webkit (Safari), Mozilla
+// Cross platfomrm: Windows, Linux, macOS
+// Cross Language: Javascript, Typescript, Python, Java, .NET
+// Mobile Apps
 
-const add = (num1, num2) =>{
-    return num1 + num2;
-}
+// Auto Wait
+// inbuild assertions
 
-const sub = (num1, num2) =>{
-    return num1 - num2;
-}
-
-const calculate = (num1, num2, operation) => {
-    const result = operation(num1, num2);
-    console.log(result);
-}
-
-calculate(5, 3, add);
+// Multiple browser instances, Tabs
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Install playwright
+// npm install playwright
 
 
 
