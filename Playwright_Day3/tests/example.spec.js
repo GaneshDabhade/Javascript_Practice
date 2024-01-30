@@ -20,17 +20,18 @@ import {test, expect} from '@playwright/test';
 //   await expect(page.locator('//*[@id="app"]/div[1]/div[1]/header/div[1]/div[1]/span/h6')).toBeVisible(); 
 // })
 
-test('Login Test with Builtin Locators', async ({page})=>{
-  await page.goto("https://opensource-demo.orangehrmlive.com/");
-  await page.waitForLoadState('load');
+// test('Login Test with Builtin Locators', async ({page})=>{
+//   await page.goto("https://opensource-demo.orangehrmlive.com/");
+//   await page.waitForLoadState('load');
 
-  await expect(page.getByAltText("company-branding")).toBeVisible();
+//   await expect(page.getByAltText("company-branding")).toBeVisible();
 
-  await page.getByPlaceholder("Username").fill("Admin");
+//   await page.getByPlaceholder("Username").fill("Admin");
 
-  await page.getByPlaceholder("Password").fill("admin123");
+//   await page.getByPlaceholder("Password").fill("admin123");
 
-  await page.getByRole('button', { name: 'Login' }).click();
+//   await page.getByRole('button', { name: 'Login' }).click();
 
-  await expect(page.getByRole('heading', { name: 'Dashboard' })).toBeVisible();
-});
+//   await expect(page.getByRole('heading', { name: 'Dashboard' })).toBeVisible();
+// });
+
